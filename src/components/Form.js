@@ -9,9 +9,8 @@ function Form(){
         } else {
             e.preventDefault()
             alert(`Usuário ${name} foi cadastrado com a senha ${password}`)
-            //alert(`Usuário ${nome.value} cadastrado com sucesso!`)
         }
-       
+       alert(`Usuário ${nome.value} cadastrado com sucesso!`)
     }
 
     const [name, setName] = useState()
