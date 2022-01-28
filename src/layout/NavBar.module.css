@@ -1,0 +1,27 @@
+.list {
+    display: flex;
+    list-style: none;
+    
+}
+
+.item {
+    margin-right: 1em;
+}
+
+a {
+    font-size: 1.3em;
+    text-decoration: none;
+    color: #fff;
+}
+a:hover {
+    color: rgb(119, 100, 100);
+}
+
+.all {
+    position: absolute;
+    background-color: black;
+    height: 70px;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
